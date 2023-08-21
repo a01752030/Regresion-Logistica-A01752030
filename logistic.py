@@ -54,7 +54,7 @@ X = np.hstack((np.ones((X.shape[0], 1)), X))
 #Parametros
 theta = np.zeros(X.shape[1])
 alpha = 0.01
-num_iterations = 1000
+num_iterations = 10000
 lambda_ = 0.1  # Regularization parameter
 
 #Entrenamiento
